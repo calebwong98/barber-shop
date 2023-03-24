@@ -2,12 +2,63 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/images/logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Website Starter Templates</title>
+    <title>Barber Shop</title>
     <link rel="stylesheet" href="/scss/main.scss" />
   </head>
   <body>
+    <header class="site-header">
+      <div class="container">
+        <div class="site-header__layout">
+          <a href="#"
+            ><img
+              src="/images/logo.svg"
+              alt="The Barber Shop Logo"
+              class="logo"
+          /></a>
+          <nav class="primary-navigation">
+            <ul class="nav flex-group">
+              <li><a href="#about-us">About us</a></li>
+              <li><a href="#hours">Hours</a></li>
+              <li><a href="#prices">Prices</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container">
+          <div>
+            <header class="section-header">
+              <h2 class="">The barber shop</h2>
+              <p class="">
+                Established over a decade ago, The Barber Shop is here to serve
+                you're hair needs, whatever they are. From a simple cut, a beard
+                trim or a hot towel shave, we're here to help you with.
+              </p>
+            </header>
+            <div>
+              <a href="#contact" class="button">Book appointment</a>
+              <a href="#price" class="button">View prices</a>
+            </div>
+          </div>
+          <div>
+            <picture>
+              <img
+                class="box-shadow-1"
+                src="/images/hair-cut.jpg"
+                alt="picture of the barber"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
     <script type="module" src="/main.js"></script>
   </body>
 </html>

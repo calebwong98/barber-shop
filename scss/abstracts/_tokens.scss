@@ -4,9 +4,10 @@
 
 // Contextual
 $color-text-default: $color-primary-700;
+$color-text-interactive-default: $color-neutral-100;
+$color-text-interactive-hover: $color-accent-300;
 $color-background-default: $color-primary-100;
-$color-text-interactive-default: $color-accent-400;
-$color-text-interactive-hover: $color-accent-500;
+$color-background-dark: $color-primary-800;
 
 $letter-spacing-loose: 0.16em;
 
@@ -48,14 +49,31 @@ $grid-gap: $size-6;
 $flex-group-gap: $size-4;
 
 $hero-padding-block: clamp(15rem, 15vh, 20rem);
-$section-padding-block: clamp(3rem, 10vh, 7rem);
+$section-padding-block: $size-13;
 
 $container-min-margin-inline: $size-4;
-$container-max-width: 60rem;
+$container-max-width: 70rem;
 $container-max-width-narrow: 40rem;
 $container-max-width-wide: 75rem;
 
 $card-body-padding: $size-8;
+
+// Site Header
+$site-header-color: $color-text-default;
+$site-header-background-color: $color-background-dark;
+$site-header-padding: $size-8 0;
+$side-header-margin: 0;
+$site-header-flex-gap: 0;
+$site-header-justification: space-between;
+$site-header-alignment: start;
+
+// Primary Navigation
+$nav-flex-column-gap: $size-9;
+$nav-font-family: $font-family-accent;
+$nav-font-size: $font-size-400;
+$nav-font-weight: $font-weight-bold;
+$nav-color-default: $color-text-interactive-default;
+$nav-color-hover: $color-text-interactive-hover;
 
 // buttons
 $button-font-family: $body-font-family;
